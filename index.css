@@ -1,0 +1,507 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar1{
+    height: 60px;
+    width: 1550px;
+    background-color: #0F1111;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    position: fixed;
+    
+}
+.nav-logo{
+    height: 58px;
+    width: 113px;
+}
+.logo{
+    background-image: url(/images/amazon\ logo.png);
+    height: 58px;
+    width: 111px;
+    background-size:cover; 
+   
+   
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.nav-box1{
+    padding-left: 6px;
+    color: white;
+    padding-top: 15px;
+}
+.class1{
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 4px;
+} 
+.class2{
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 6px;
+
+}
+.india{
+    display: flex;
+    align-items: center;
+    
+}
+
+select{
+    height: 40px;
+    width: 55px;
+    border-radius: 10%;
+    font-size: 15px;
+    background-color: rgb(222, 217, 217);
+    color:grey;
+    margin-left: 7px;
+    margin-top: 10px;
+    padding-left: 4px;
+    border-color: #0F1111;
+}
+input{
+    height: 38px;
+    width: 700px;
+    border-radius: 5%;
+    font-size: 15px;
+    padding-left: 6px;
+    margin-top: 10px;
+    border-color: #0F1111;
+}
+input:hover{
+    border: 2px solid coral;
+}
+button:hover{
+    background-color: orange;
+}
+.nav-search{
+     display: flex; 
+     
+}
+button{
+    height: 42px;
+    width: 50px;
+    border-radius: 10%;
+    margin-top: 10px;
+    background-color: rgb(234, 159, 73);
+    border-color: #0F1111;
+}
+.us{
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 17px;
+    width: 22px;
+    
+}
+.CHOOSE{
+    height: 19px;
+    width: 18px;
+ background-color: #0F1111; 
+margin-left: 0PX;
+}
+.nav-box2{
+    display: flex;
+    padding-top: 15px;
+}
+
+.EN{
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+.hello{
+    color: white;
+    font-size: 12px;
+
+}
+.accounts{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.nav-box3{
+   padding-top: 17px;
+    margin-left: 3px;
+    padding-left:2px ;
+    
+}
+.account1{
+   margin-left: 2px;
+    margin-top: 0px;
+    height: 15px;
+    width: 15px;
+    background-color: #0F1111;
+}
+.return{
+    color: white;
+    font-size: 12px;
+}
+.orders{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.nav-box4{
+    padding-top: 17px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.nav-box5{
+    display: flex;
+    color: white;
+}
+.fa-solid {
+ font-size: 30px;
+}
+.cart{
+    font-size: 14px;
+    font-weight:bold; 
+    padding: 16px 0px 0px 5px;
+}
+.nav-box5{
+    width: 80px;
+    padding-top: 15px;
+    padding-left: 5px;
+
+}
+.navbar2{
+    padding-top: 55px;
+    width: 1600px;
+    height: 40px;
+    background-color: #162e45;
+    display: flex;
+     position: static;
+}
+
+
+.all{
+    display:flex;
+    padding-left: 5px;
+    padding-top: 07px;
+    height: 30px;
+    width: 53px;
+    margin-left: 20px;
+    color: white;
+}
+.text{
+    font-size: 16px;
+    padding-top: 2px;
+    font-weight: bold;
+    padding-left: 4px;
+
+}
+.todaydeals{
+    color: white;
+    height: 30px;
+    width: 105px;
+    font-size: 16px;
+    padding-top: 9px;
+    padding-left: 4px;
+}
+.customer{
+    color: white;
+    height: 30px;
+    width: 140px;
+    font-size: 16px;
+    padding-top: 9px;
+    padding-left: 5px;
+}
+.registery{
+    color: white;
+    height: 30px;
+    width: 75px;
+    font-size: 16px;
+    padding-top: 9px;
+    padding-left: 4px;
+}
+.giftcard{
+    color: white;
+    height: 30px;
+    width: 75px;
+    font-size: 16px;
+    padding-top: 9px;
+    padding-left: 4px;
+}
+.sell{
+    color: white;
+    height: 30px;
+    width:45px;
+    font-size: 16px;
+    padding-top: 9px;
+    padding-left: 9px;
+}
+.hero{
+    background: url(/images/HERO\ SECTION.jpg) ;
+    width: 1600px;
+    height: 350px;
+   display: flex;
+    align-items: end;
+   
+    
+    
+}
+.amazonin{
+    width: 1450px;
+    height: 30px;
+  display: flex;
+    background-color: rgba(255, 255, 255,0.5);
+    text-decoration: none;
+    font-size: 14px;
+     color: black;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-left: 25px;
+    padding-top: 15px;
+   
+   
+}
+.link{
+    text-decoration: none;
+    color: #007185;
+}
+.link:hover{
+text-decoration: underline;
+color:brown;
+}
+ .boxes{ 
+    height: 430px;
+    width: 325px;
+    background-color: white;
+    margin-left: 25px;
+    padding-left: 25px;
+    padding-top: 20px;
+} 
+.heading{
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+.main{
+    /* margin-bottom: 10px; */
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(129, 133, 134, 0.5);
+    height: 480px;
+    width: 1550px;
+    display: flex;
+    
+}
+.softy{
+    padding-top: 8px;
+    background: cover;
+    height: 325px;
+    width: 300px;
+}
+.seemore{
+  
+    font-size: 13px;
+    text-decoration: none;
+    color: #007185;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    padding-right: 25px;
+}
+.sqr{
+    height: 150px;
+    width: 140px;
+    padding-top: 8PX;
+}
+.deals{
+    padding-top: 8px;
+    background: cover;
+    height: 330px;
+    width: 300px;
+}
+.main2{
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(129, 133, 134, 0.5);
+    height: 310px;
+    width: 1550px;
+    display: flex;
+}  
+.big{
+    
+   margin-top: 25px;
+    height: 281px;
+    width: 1475px;
+    background-color: white;
+    margin-left: 25px;
+ 
+}
+.bigb{
+    padding-right: 15px;
+    height: 200px;
+    width: 180px;
+}
+.heading2{
+    padding-left: 25px;
+    padding-top: 25px;
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+.smallb{
+    padding-top: 15px;
+    padding-left: 15px;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.history{
+    padding: 15px 0px 0px 15px;
+    margin-top: 45px;
+    height: 630px;
+    width: 1520px;
+    border: 2px solid rgb(227, 224, 224);
+    border-radius: 2%;
+    font-size: 14px;
+}
+.innerhis{
+    display: flex;
+    justify-content: space-around;
+    height: 460px
+    
+}
+.innerb{
+   
+    margin-top: 40px;
+    height: 350px;
+    width: 210px;
+    border: none;
+    
+}
+.hisimg{
+   
+    background: cover;
+    width: 230px;
+    height:150px;
+}
+.discription{
+    color: #007185;
+    font-size: 14px;
+    text-decoration: none;
+}
+.discription:hover{
+    color: brown;
+}
+.fa-star{
+    color: rgb(228, 174, 13);
+    font-size: 15px ;
+}
+.fa-star-half{
+    color: rgb(228, 174, 13);
+    font-size: 15px ;
+}
+.stars{
+    display: flex;
+    color: #007185;
+}
+.amount{
+    font-size: 17px;
+}
+.last{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+}
+.start{
+    display: flex;
+}
+.signin{
+    margin: 5px 0px 5px 0px;
+    height: 28px;
+    width: 230px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(243, 183, 43);
+    border: 2px solid rgb(241, 151, 17);
+}
+.back{
+    margin-top: 15px;
+    height: 49px;
+    width: 1550px;
+    background-color: #415263;
+    font-size: 13px;
+    color: white;
+    border-radius: 0px;
+    font-weight: bold;
+}
+.back:hover{
+    background-color:#475d74 ;
+}
+.footer1{
+    height: 500px;
+    width: 1550px;
+    background-color: #1b2733;
+   
+}
+.part1{
+    display: flex ;
+    justify-content: space-evenly;
+}
+.innerf{
+    padding-top: 30px ;
+    height: 200px;
+    width: 120px;
+   
+}
+.he1{
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    margin: 6px 0px 14px;
+}
+.ul{
+    color: #dddddd;
+    font-size: 14px;
+    
+}
+li{
+    padding-bottom: 11px;
+    list-style-type: none;
+    margin: 0px;
+    padding-top: 0px;
+   
+}
+li:hover{
+    text-decoration: underline;
+}
+.innerf2{
+    padding-top: 30px ;
+    height: 270px;
+    width: 160px;
+
+}
+.innerf3{
+    padding-top: 30px ;
+    height: 150px;
+    width: 210px;
+    
+}
